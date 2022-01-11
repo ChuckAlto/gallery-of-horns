@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  background-color: lightblue;
+  text-align: center;
+  font-size: x-large;
+  height: 130px;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  margin: 30px;
+  
+}
+
+article {
+  display: inline-block;
+  text-align: center;
+  border: 20px solid blue;
+  padding: 10px;
+  margin: 40px;
+  margin-left: 100px;
+}
+
+footer {
+  background-color: lightblue;
+  text-align: right;
+  height: 50px;
+}
