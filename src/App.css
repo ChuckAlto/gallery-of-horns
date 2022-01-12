@@ -37,7 +37,7 @@
   }
 }
 
-header {
+/* header {
   background-color: lightblue;
   text-align: center;
   font-size: x-large;
@@ -64,4 +64,19 @@ footer {
   background-color: lightblue;
   text-align: right;
   height: 50px;
+} */
+
+/* main {
+  display: flex;
+} */
+
+
+
+article img {
+  width: 100%;
 }
+
+*{
+  text-align: center;
+}
+

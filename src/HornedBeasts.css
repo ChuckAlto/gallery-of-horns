@@ -1,0 +1,7 @@
+.cardClass {
+  width: 25%;
+  border: .5vw solid blue;
+  margin: 1vw;
+  margin-top: 2vw;
+  padding: .5vw;
+}
