@@ -10,10 +10,12 @@ class Main extends React.Component{
     
     let hornedBeastsArray = this.props.data.map((animal, idx) => (
       <HornedBeasts
-        key={idx} 
-        imageUrl={animal.image_url}
-        title={animal.title}
-        description={animal.description}
+        key={idx}
+        animal={animal}
+        handleShow={this.props.handleShow} 
+        // imageUrl={animal.image_url}
+        // title={animal.title}
+        // description={animal.description}
         />
     ));
 
