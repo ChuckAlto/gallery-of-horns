@@ -14,19 +14,20 @@ class HornedBeasts extends React.Component{
   handleLikes = () => {
     this.setState({
       likes: this.state.likes + 1
-    })
+    });
+    this.props.handleShow(this.props.animal);
   }
   render(){
     return(
       <Card style={{width: '25%'}} className="cardClass">
         <Card.Img
           onClick={this.handleLikes} 
-          src={this.props.imageUrl}
-          alt={this.props.title}
-          title={this.props.title}
+          src={this.props.animal.image_url}
+          alt={this.props.animal.title}
+          title={this.props.animal.title}
           />
-        <Card.Header>{this.props.title}</Card.Header>
-        <Card.Text>{this.props.description} </Card.Text>
+        <Card.Header>{this.props.animal.title}</Card.Header>
+        <Card.Text>{this.props.animal.description} </Card.Text>
         <Card.Text>💖: {this.state.likes}</Card.Text>
       </Card>
     ) 
