@@ -5,29 +5,33 @@ import HornedBeasts from './HornedBeasts.js';
 import './Main.css';
 
 
-class Main extends React.Component{
-  render(){
-    
+
+class Main extends React.Component {
+  render() {
+
+
     let hornedBeastsArray = this.props.data.map((animal, idx) => (
       <HornedBeasts
         key={idx}
         animal={animal}
-        handleShow={this.props.handleShow} 
-        // imageUrl={animal.image_url}
-        // title={animal.title}
-        // description={animal.description}
-        />
+        handleShow={this.props.handleShow}
+      // imageUrl={animal.image_url}
+      // title={animal.title}
+      // description={animal.description}
+      />
     ));
 
 
-    return(
+    return (
+      
       <main>
         {hornedBeastsArray}
       </main>
-        
-          
+    
 
-    ) 
+
+
+    )
   }
 }
 
