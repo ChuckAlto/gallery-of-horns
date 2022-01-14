@@ -51,7 +51,7 @@ class App extends React.Component {
             <Form onChange={this.hornedFilter}>
               <Form.Group controlId="selected">
                 <Form.Select  >
-                  <option value={"1", "2", "3", "100"}>Select How Many Horns You Want to See?</option>
+                  <option>Select How Many Horns You would like to See?</option>
                   <option value="1">1 Horn</option>
                   <option value="2">2 Horns</option>
                   <option value="3">3 Horns</option>
