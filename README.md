@@ -1,6 +1,6 @@
 # Gallery of Horns
 
-I built a website showing many pictures/drawings of animals/mythical beasts with horn(s). The pictures are interactive and a modal will pop up with a bigger version of the picture, the title, and description. Every time that picture is clicked it is recorded and is counted with in the card.
+I built a website showing many pictures/drawings of animals/mythical beasts with horn(s). The pictures are interactive and a modal will pop up with a bigger version of the picture, the title, and description. Every time that picture is clicked it is recorded and is counted with in the card. The user can also click on a drop down menu and choose to see just the pictures of animals with a chosen amount of horns.
 
 ### Author: Chuck Altopiedi
 
@@ -10,6 +10,7 @@ I built a website showing many pictures/drawings of animals/mythical beasts with
 * Alex Williams - lab TA
 * Kassie Bradshaw - Lab TA
 * Riva Davidowski - Grading TA
+* Taylor thornton - lab TA
 
 ## lab 1
 
@@ -64,3 +65,15 @@ Start time: 3:00
 Finish time: 7:00
 
 Actual time needed to complete: 4:00
+
+## Lab 4 
+
+* Number and name of feature: Feature #1 Filter by Number of Horns
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 6:00
+
+Finish time: 10:30
+
+Actual time needed to complete: 4:30

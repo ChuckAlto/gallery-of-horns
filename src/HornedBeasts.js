@@ -21,10 +21,11 @@ class HornedBeasts extends React.Component{
     return(
       <Card style={{width: '25%'}} className="cardClass">
         <Card.Img
-          onClick={this.handleLikes} 
+          onClick={this.handleLikes}
           src={this.props.animal.image_url}
           alt={this.props.animal.title}
           title={this.props.animal.title}
+          horns={this.props.animal.horns}
           />
         <Card.Header>{this.props.animal.title}</Card.Header>
         <Card.Text>{this.props.animal.description} </Card.Text>
